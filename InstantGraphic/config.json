@@ -1,0 +1,10 @@
+{
+	"pointsLayerID": "",
+	"boundaryLayerID": "",
+	"fields": [],
+	"graphicColors": ["#E50000", "#0043FF", "#E5C000", "#00BF48", "#6000BF", "#FF6200", "#401800", "#000", "#333"],
+	"zoomLevel": 12,
+	"showCount": false,
+	"countLabel": "Count",
+	"editableBoundaries": false
+}

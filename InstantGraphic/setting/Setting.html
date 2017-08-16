@@ -1,0 +1,34 @@
+<div>
+	<div>
+		<label>${nls.boundaryLabel}</label>
+		<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="boundarySelect"></select>
+	</div>
+	<div>
+		<label>${nls.editableLabel}</label>
+		<input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="editableCheck">
+	</div>
+	<div>
+		<label>${nls.pointsLabel}</label>
+		<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="pointsSelect"></select>
+	</div>
+	<hr>
+	<h3>${nls.pickAttributesLabel}</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>${nls.fieldtable.alias}</th>
+				<th>${nls.fieldtable.type}</th>
+				<th>${nls.fieldtable.include}</th>
+			</tr>
+		</thead>
+		<tbody data-dojo-attach-point="attributesList"></tbody>
+	</table>
+	<div>
+		<label>${nls.count.checkLabel}</label>
+		<input data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="countCheck">
+	</div>
+	<div>
+		<label>${nls.count.nameLabel}</label>
+		<input class="jimu-input" data-dojo-attach-point="countLabelNode">
+	</div>
+</div>
