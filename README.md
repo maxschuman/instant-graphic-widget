@@ -1,1 +1,1 @@
-"# instant-graphic-widget" 
+#InstantGraphic Widget for ArcGIS Web AppBuilder 
